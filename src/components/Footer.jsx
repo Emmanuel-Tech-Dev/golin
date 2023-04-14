@@ -6,7 +6,7 @@ const Footer = () => {
 
             <div className="content  text-[#fefefe] m-5 font-new md:px-[10%] md:mt-20">
                 <img className='ml-[90%] mt-[68px] w-[34px]' src='./add.png' />
-                <div className='flex items-center justify-between'>
+                <div className='md:flex items-center justify-between'>
                     <h1 className='text-3xl font-bold  py-10 md:text-[48px] md:w-[50%] leading-[140%]'>Contact us for the service you want to use</h1>
                     <a href='#'><button className='px-10 py-2 bg-[#5454D4] flex items-center gap-3'>Contact us </button></a>
                 </div>
