@@ -9,32 +9,32 @@ const Services = () => {
       
       <div className="card-container font-new md:flex md:gap-20 md:flex-wrap md:mt-10">
         <div className="cards w-[300px] m-auto text-center py-12 ">
-            <img className='m-auto' src='./icon-2.png'/>
+            <img className='m-auto' src='/icon-2.png'/>
             <h3 className='text-xl py-4'>Development</h3>
             <p className='text-center opacity-70'>Create a platform with the best and coolest quality from us.</p>
         </div>
          <div className="cards w-[300px] m-auto text-center py-12 ">
-            <img className='m-auto' src='./icon.png'/>
+            <img className='m-auto' src='/icon.png'/>
             <h3 className='text-xl py-4'>Ui/Ux Designer</h3>
             <p className='text-center opacity-70'>We provide UI/UX Design services, and of course with the best quality.</p>
         </div> 
         <div className="cards w-[300px] m-auto text-center py-12 ">
-            <img className='m-auto' src='./icon-1.png'/>
+            <img className='m-auto' src='/icon-1.png'/>
             <h3 className='text-xl py-4'>Graphik Designer</h3>
             <p className='text-center opacity-70'>We provide Graphic Design services, with the best designers.</p>
         </div> 
         <div className="cards w-[300px] m-auto text-center py-12 ">
-            <img className='m-auto' src='./icon-4.png'/>
+            <img className='m-auto' src='/icon-4.png'/>
             <h3 className='text-xl py-4'>Motion Graphik</h3>
             <p className='text-center opacity-70'>Create a platform with the best and coolest quality from us.</p>
         </div>
          <div className="cards w-[300px] m-auto text-center py-12 ">
-            <img className='m-auto' src='./icon-5.png'/>
+            <img className='m-auto' src='/icon-5.png'/>
             <h3 className='text-xl py-4'>Photography</h3>
             <p className='text-center opacity-70'>We provide Photography services, and of course with the best quality.</p>
         </div>
          <div className="cards w-[300px] m-auto text-center py-12 ">
-            <img className='m-auto' src='./icon-3.png'/>
+            <img className='m-auto' src='/icon-3.png'/>
             <h3 className='text-xl py-4'>Videography</h3>
             <p className='text-center opacity-70'>Create a platform with the best and coolest quality from us.</p>
         </div>
