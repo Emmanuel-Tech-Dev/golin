@@ -10,7 +10,7 @@ const Work = () => {
       
       {/* Caurousel Cards and Controllers Here */}
      <div className="works py-5 m-auto ">
-<div className="images w-[400px] mx-14 md:flex md:gap-20 md:mx-0 ">
+<div className="images  mx-14 md:flex md:gap-20 md:mx-0 ">
     <img src='./carousel.png'/>
     <img className='hidden md:block' src='./image2.png'/>
     <img className='hidden md:block ' src='./image3.png'/>
