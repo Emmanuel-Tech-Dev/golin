@@ -1,5 +1,19 @@
 import React from 'react'
 
+let services = [
+     
+  { images: '/icon2.png' ,  name:'Development' , desc:'Create a platform with the best and coolest quality from us.'},
+  { images: '/icon.png' ,  name:'Ui/Ux Designer' , desc:'We provide UI/UX Design services, and of course with the best quality'},
+  { images: '/icon1.png' ,  name:'Graphik Designer' , desc:'We provide Graphic Design services, with the best designers.'},
+  { images: '/icon4.png' ,  name:'Motion Graphik' , desc:'Create a platform with the best and coolest quality from us.'},
+  { images: '/icon5.png' ,  name:'Photography' , desc:'We provide Photography services, and of course with the best quality.'},
+  { images: '/icon3.png' ,  name:'Videography' , desc:'Create a platform with the best and coolest quality from us.'}
+
+
+]
+
+
+
 const Services = () => {
   return (
     <div>
@@ -8,36 +22,19 @@ const Services = () => {
       <img className='ml-[90%] w-[34px]' src='./add.png'/>
       
       <div className="card-container font-new md:flex md:gap-20 md:flex-wrap md:mt-10">
-        <div className="cards w-[300px] m-auto text-center py-12 ">
-            <img className='m-auto' src='/icon2.png'/>
-            <h3 className='text-xl py-4'>Development</h3>
-            <p className='text-center opacity-70'>Create a platform with the best and coolest quality from us.</p>
-        </div>
-         <div className="cards w-[300px] m-auto text-center py-12 ">
-            <img className='m-auto' src='/icon.png'/>
-            <h3 className='text-xl py-4'>Ui/Ux Designer</h3>
-            <p className='text-center opacity-70'>We provide UI/UX Design services, and of course with the best quality.</p>
+
+
+             {
+              services.map((service =>(
+            <div className="cards w-[300px] m-auto text-center py-12 ">
+            <img className='m-auto' src={service.images}/>
+            <h3 className='text-xl py-4'>{service.name}</h3>
+            <p className='text-center opacity-70'>{service.desc}</p>
         </div> 
-        <div className="cards w-[300px] m-auto text-center py-12 ">
-            <img className='m-auto' src='/icon1.png'/>
-            <h3 className='text-xl py-4'>Graphik Designer</h3>
-            <p className='text-center opacity-70'>We provide Graphic Design services, with the best designers.</p>
-        </div> 
-        <div className="cards w-[300px] m-auto text-center py-12 ">
-            <img className='m-auto' src='/icon4.png'/>
-            <h3 className='text-xl py-4'>Motion Graphik</h3>
-            <p className='text-center opacity-70'>Create a platform with the best and coolest quality from us.</p>
-        </div>
-         <div className="cards w-[300px] m-auto text-center py-12 ">
-            <img className='m-auto' src='/icon5.png'/>
-            <h3 className='text-xl py-4'>Photography</h3>
-            <p className='text-center opacity-70'>We provide Photography services, and of course with the best quality.</p>
-        </div>
-         <div className="cards w-[300px] m-auto text-center py-12 ">
-            <img className='m-auto' src='/icon3.png'/>
-            <h3 className='text-xl py-4'>Videography</h3>
-            <p className='text-center opacity-70'>Create a platform with the best and coolest quality from us.</p>
-        </div>
+              )
+              ))
+
+             }
        
       </div>
  <img className=' w-[34px]' src='./add.png'/>
